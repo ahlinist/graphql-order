@@ -2,16 +2,11 @@ type Order {
     id: ID!
     name: String!
     items: [OrderItem!]
-    wareHouse: WareHouse
 }
 
 type OrderItem {
     id: ID!
     description: String
-}
-
-type WareHouse {
-    id: ID!
 }
 
 type Query {

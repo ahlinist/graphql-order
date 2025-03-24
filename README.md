@@ -10,6 +10,9 @@ query {
         items {
             id
         }
+        wareHouse {
+            id
+        }
     }
 }
 ```
