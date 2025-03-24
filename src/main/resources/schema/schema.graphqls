@@ -1,0 +1,14 @@
+type Order {
+    id: ID!
+    name: String!
+    items: [OrderItem!]
+}
+
+type OrderItem {
+    id: ID!
+    description: String
+}
+
+type Query {
+    getOrders: [Order!] !
+}
